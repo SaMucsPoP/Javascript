@@ -1,58 +1,58 @@
-// let idade = 20;
-// console.log(idade);
-// let altura = 180;
-// console.log(altura);
+let idade1 = 20;
+console.log(idade1);
+let altura1 = 180;
+console.log(altura1);
 
 
-// let nome = 'Samuel'
-// let altura = 180
-// let peso = 75.5
-// let nomeCompleto = 'Samuel lopes ribeiro'
-// let instrumento = 'bateria'
-// console.log(nome)
-// console.log(altura)
-// console.log(peso)
-// console.log(nomeCompleto)
-// console.log(instrumento)
+let nome = 'Samuel'
+let altura = 180
+let peso = 75.5
+let nomeCompleto = 'Samuel lopes ribeiro'
+let instrumento = 'bateria'
+console.log(nome)
+console.log(altura)
+console.log(peso)
+console.log(nomeCompleto)
+console.log(instrumento)
 
-// const igressoA = 20;
-// console.log(ingressoA)
+const igressoA = 20;
+console.log(ingressoA)
 
 
-// let nome = "samu" //string, conjunto de caracteres
-// let idade = 25 //armazena todos os tipos de número
-// let estaAprovado = true //boolean constroe regras dentro do código
-// let sobrenome = undefined ; //undefined, sem definição
+let nome = "samu" //string, conjunto de caracteres
+let idade3 = 25 //armazena todos os tipos de número
+let estaAprovado = true //boolean constroe regras dentro do código
+let sobrenome = undefined ; //undefined, sem definição
 
-// let pessoa = {
-//     nome: 'Samu', //key value pair (uma chave que acessa o valor)
-//     idade: 25,
-//     estaAprovado: true,
-//     sobrenome: 'de souza'
-// };
+let pessoa = {
+     nome: 'Samu', //key value pair (uma chave que acessa o valor)
+     idade3: 25,
+     estaAprovado: true,
+     sobrenome: 'de souza'
+ };
 
-// console.log(pessoa)
+console.log(pessoa)
 
-// let hora = 5
-// diasPorSemana = 5
+let hora = 5
+diasPorSemana = 5
 
-//  let treino = {
-//     hora: 5,
-//     diasPorSemana: 5,
-//     instrumento: 'bateria',
-//    treinoSemanal: hora * diasPorSemana
-//  }
+  let treino = {
+     hora: 5,
+     diasPorSemana: 5,
+     instrumento: 'bateria',
+    treinoSemanal: hora * diasPorSemana
+  }
 
-// console.log(treino)
+ console.log(treino)
 
-// let familia = [true,45,50,'samu',17]
-// console.log(familia.length)
+ let familia = [true,45,50,'samu',17]
+ console.log(familia.length)
 
-// console.log(familia[0])
+ console.log(familia[0])
 
-// let nomeDoColega = ['primo','campo mourão','paraná',18,'estudante',treino]
+ let nomeDoColega = ['primo','campo mourão','paraná',18,'estudante',treino]
 
-// console.log(nomeDoColega)
+ console.log(nomeDoColega)
 
 corSite = 'azul'
 
@@ -94,3 +94,41 @@ let resultado = MultiplicarPorDois(5)
 console.log(resultado)
 
 
+let salario = 100
+
+console.log(salario + salario)
+console.log(salario - salario)
+console.log(salario * salario)
+console.log(salario / salario)
+console.log(5 ** 5)
+
+
+//incremento ++ 
+//decremento --
+let idade = 19
+console.log(++idade)
+console.log(--idade)
+
+
+//operadores de atribuição
+
+let valor = 10
+//valor = valor + valor
+valor += valor
+console.log(valor)
+//valor = valor - valor
+valor -= valor
+console.log(valor)
+
+//operadores de igualdade
+//compara os valores e tipo
+console.log(1 === 1)
+console.log("1" === 1)
+
+//igualdade solta
+//ignora os tipos e os converte em valores
+console.log(1 == 1)
+console.log("1" == 1)
+
+
+//operador ternário
