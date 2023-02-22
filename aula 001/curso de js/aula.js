@@ -15,17 +15,17 @@ console.log(peso)
 console.log(nomeCompleto)
 console.log(instrumento)
 
-const igressoA = 20;
+const ingressoA = 20;
 console.log(ingressoA)
 
 
-let nome = "samu" //string, conjunto de caracteres
+let nome1 = "samu" //string, conjunto de caracteres
 let idade3 = 25 //armazena todos os tipos de número
 let estaAprovado = true //boolean constroe regras dentro do código
 let sobrenome = undefined ; //undefined, sem definição
 
 let pessoa = {
-     nome: 'Samu', //key value pair (uma chave que acessa o valor)
+     nome1: 'Samu', //key value pair (uma chave que acessa o valor)
      idade3: 25,
      estaAprovado: true,
      sobrenome: 'de souza'
@@ -77,11 +77,11 @@ computador(4090, 'i9 13500f', 'HM810')
 console.log(computador)
 
 //1 tipos de função é a que não devolve nada 
-function nome(){
+function nome4(){
     console.log('samu')
 }
 
-nome()
+nome4()
 //faz um calculo ou operação e exibe um resultado 
 function MultiplicarPorDois(valor){
     return valor*2
