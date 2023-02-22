@@ -54,5 +54,43 @@
 
 // console.log(nomeDoColega)
 
+corSite = 'azul'
+
+function resetaCor(cor,tonalidade){ // os () significam os parâmetros
+    corSite =  cor + ' ' + tonalidade;       //argumentos oq fazer com os valores acima
+}
+
+console.log(corSite)
+resetaCor('verde','claro')
+console.log(corSite)
+
+
+PlacaDevideo = 2060
+Processador = 'i5 10400f'
+
+function computador(placaDeVideo,Processador,placaMae){
+    computador = placaDeVideo + " " + Processador + ' ' + placaMae
+}
+
+console.log(PlacaDevideo, Processador)
+computador(4090, 'i9 13500f', 'HM810')
+console.log(computador)
+
+//1 tipos de função é a que não devolve nada 
+function nome(){
+    console.log('samu')
+}
+
+nome()
+//faz um calculo ou operação e exibe um resultado 
+function MultiplicarPorDois(valor){
+    return valor*2
+}
+//console.log(MultiplicarPorDois(5))
+
+
+let resultado = MultiplicarPorDois(5)
+
+console.log(resultado)
 
 
