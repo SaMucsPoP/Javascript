@@ -1,0 +1,5 @@
+console.log(nome)
+console.log(altura)
+console.log(peso)
+console.log(nomeCompleto)
+console.log(instrumento)
