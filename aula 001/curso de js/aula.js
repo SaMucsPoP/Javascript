@@ -261,9 +261,31 @@ for(let i = 5;i >= 1;i--){
 
 //while
 let i = 5
-while (i >= 5) {
+
+while (i >= 1) {
     if(i % 2 !== 0){
         console.log(i)
     }
     i--
+}
+
+
+//do while
+let i2 = 0
+do{
+    console.log('digitando', i2);
+    i2++;
+}while(i2 < 10)
+
+
+//for in
+const pessoa2 = {
+    nome: 'sam',
+    idade2: 25
+}
+
+//key value
+for(let key in pessoa2) {
+    console.log(key,pessoa2.nome) 
+
 }
