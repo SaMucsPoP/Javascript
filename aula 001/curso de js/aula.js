@@ -42,13 +42,36 @@ let hora = 5
 diasPorSemana = 5
 
   let treino = {
+     pessoa: 'samuel',
      hora: 5,
      diasPorSemana: 5,
-     instrumento: 'bateria',
-    treinoSemanal: hora * diasPorSemana
+     instrumento: {
+        bateria:{
+            caixa: 'odery',
+            cor: 'preta'
+        },
+        violao: {
+            corda: 'nylon',
+            madeira: 'refinada'
+        }
+     },
+     treinoSemanal: hora * diasPorSemana,
+
+     bichos: ['cachorro',"gato"],
+
+    //   tocar: function(rudimento){
+    //      alert(treino.pessoa+' treinou '+rudimento+' por '+treino.hora+' horas ')
+    //   }
   }
 
+ treino.hora = 10
+ //treino.tocar("paradidle") 
+ console.log(treino.treinoSemanal)
  console.log(treino)
+ console.log(treino.instrumento.violao.madeira)
+ console.log(treino.instrumento)
+ console.log(treino.hora)
+ console.log(treino.bichos[1])
 
  let familia = [true,45,50,'samu',17]
  console.log(familia.length)
@@ -181,3 +204,41 @@ let corPadrao = 'Azul'
 let corPerfil = corPersonalizada || corPadrao
 
 console.log(corPerfil)
+
+
+//if else
+
+let hora2 = 22
+
+if (hora2 > 6 && hora2 < 12){
+    console.log('bom dia')
+
+}
+else if (hora2 > 12 && hora2 < 18){
+    console.log('boa tarde')
+}
+else {
+    console.log('boa noite')
+}
+
+//switch case
+
+let permissao; //comum,gerente,diretor
+permissao = 'gerente'
+switch (permissao){
+    case 'comum':
+    console.log('usuario comum')
+    break
+
+    case 'gerente':
+    console.log('usuario gerente')
+    break
+
+    
+    case 'diretor':
+    console.log('usuario diretor')
+    break
+
+    default: 
+    console.log('User não reconhcido')
+}
