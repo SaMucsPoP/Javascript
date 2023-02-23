@@ -15,6 +15,7 @@ console.log(peso)
 console.log(nomeCompleto)
 console.log(instrumento)
 
+//valores inalterados
 const ingressoA = 20;
 console.log(ingressoA)
 
@@ -24,6 +25,8 @@ let idade3 = 25 //armazena todos os tipos de número
 let estaAprovado = true //boolean constroe regras dentro do código
 let sobrenome = undefined ; //undefined, sem definição
 
+
+//objeto
 let pessoa = {
      nome1: 'Samu', //key value pair (uma chave que acessa o valor)
      idade3: 25,
@@ -32,6 +35,8 @@ let pessoa = {
  };
 
 console.log(pessoa)
+
+
 
 let hora = 5
 diasPorSemana = 5
@@ -132,3 +137,47 @@ console.log("1" == 1)
 
 
 //operador ternário
+ let pontos = 200
+ //se ponto > que 100 será(?) premium caso contrario(:) ele será comum
+ let tipo = pontos > 100 ? 'premium' : 'comum'
+ console.log(tipo)
+
+ //operadores logicos
+ //os operadores logicos são usados para decisão de multipla escolha
+ //operador logico && retorna true se os dois operando forem true
+console.log(true && true)
+console.log(false && true)
+
+
+let maiorDeIdade = true
+let possuiCarteiraDeTrabalho = true
+//let podeAplicar = maiorDeIdade || possuiCarteiraDeTrabalho
+let podeAplicar = maiorDeIdade && possuiCarteiraDeTrabalho
+console.log('pode aplicar: ',podeAplicar)
+
+//operador logico ou (||)
+//retornar true se um dos operandos forem true
+//analisa apenas a primeira equação
+//quando comparamos duas strings se o 1º valor estiver preenchido irá pass a msg true, pois é necessario que apenas um dos valores seja true
+
+
+//operador NOT (!)
+let candidatoResusado = !podeAplicar
+console.log('candidato recusado: ',candidatoResusado)
+
+//comparações não booleanas
+//falsy
+//undefined
+//null
+//0
+//false
+//''
+//NaN  - not a number -
+
+//truthy
+
+let corPersonalizada = 'vermelho'
+let corPadrao = 'Azul'
+let corPerfil = corPersonalizada || corPadrao
+
+console.log(corPerfil)
