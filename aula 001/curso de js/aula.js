@@ -259,6 +259,12 @@ for(let i = 5;i >= 1;i--){
     }
 }
 
+for(let i = 1;i <= 5;i++){
+    if(i % 2 !== 0){
+        console.log('indice',i)
+    }
+}
+
 //while
 let i = 5
 
@@ -270,12 +276,26 @@ while (i >= 1) {
 }
 
 
+
+
+let a = 1
+
+while (a <= 10){
+    if(b = 5 * a){
+        console.log("tabuada",b)
+    }
+    a++
+}
+
+
 //do while
-let i2 = 0
-do{
-    console.log('digitando', i2);
+let i2 = 1
+do{ 
+    let b = 7 * i2
+    console.log('digitando', b);
     i2++;
-}while(i2 < 10)
+    
+}while(i2 <= 10)
 
 
 //for in
