@@ -66,9 +66,9 @@ diasPorSemana = 5
 
  treino.hora = 10
  //treino.tocar("paradidle") 
- console.log(treino.treinoSemanal)
- console.log(treino)
- console.log(treino.instrumento.violao.madeira)
+ console.log('treino semanal',treino.treinoSemanal)
+ console.log('treino',treino)
+ console.log('tipo da viola',treino.instrumento.violao.madeira)
  console.log(treino.instrumento)
  console.log(treino.hora)
  console.log(treino.bichos[1])
@@ -355,3 +355,63 @@ function max(numero1,numero2){
 
 let valMax = max(50,6)
 console.log(valMax)
+
+
+//fizz buzz
+
+
+
+function fizzBuzz(entrada){
+    if (typeof entrada !== 'number')
+    return 'não é um número'
+    if((entrada % 3 === 0) && (entrada % 5 === 0))
+    return 'FizzBuzz'
+    if(entrada % 3 === 0)
+    return 'Fizz'
+    if (entrada % 5 === 0)
+    return 'Buzz'
+    return entrada
+}   
+
+const result = fizzBuzz(15)
+console.log(result)
+
+
+//vel max: ate 70km
+//a cada 5km acima do limite vc tem um ponto da carteira
+//caso os pontos sejam maior que 12 a carteira suspensa
+
+verificarVelocidade(80)
+
+function verificarVelocidade(velocidade){
+    const velocidadeMaxima = 70
+    const kmPorPonto = 5
+    if (velocidade <= velocidadeMaxima)
+    console.log('ok')  
+    else{
+        const pontos = Math.floor(((velocidade - velocidadeMaxima) / kmPorPonto))
+        if (pontos >= 12)
+        console.log('carteira suspensa')
+        else
+            console.log('Pontos: ', pontos)
+    }
+    
+}
+
+exibeTipo(10)
+
+function exibeTipo(limite){
+    for(let i = 0;i < limite;i++)
+    if(i % 2 == 0){
+        console.log(i,'PAR')
+    }else{
+        console.log(i,'IMPAR')
+    }
+
+}
+
+
+function exibaPropriedades(obj){
+    
+}
+
