@@ -309,3 +309,49 @@ for(let key in pessoa2) {
     console.log(key,pessoa2.nome) 
 
 }
+
+const cores = ['vermelho', 'Azul', 'Verde']
+
+for (let indice in cores){
+    console.log(indice,cores[indice])
+}
+
+//for of
+for(let cor of cores){
+    console.log(cor)
+}
+
+
+//for of
+
+const carros = ['camaro','bugati','feromonas']
+for(let carro of carros){
+    console.log(carro)
+}
+
+
+//escrea um função que usa dois numeros e retorne o maior entre eles
+
+
+
+function trocaNumero(numero1,numero2){
+        if(numero1 > numero2){
+            console.log('o número maior é esse', numero1)
+        }else{
+            console.log('o número maior é esse',numero2)
+        }
+        
+}
+
+let a5 = trocaNumero(50,6)
+
+
+
+//oto metodo
+
+function max(numero1,numero2){
+    return numero1>numero2 ? numero1:numero2
+}
+
+let valMax = max(50,6)
+console.log(valMax)
